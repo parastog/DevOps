@@ -16,6 +16,7 @@ import org.testng.annotations.AfterTest;
  * @author pawan.rastogi
  *  This is a first ever test case written by Pawan using Vishnu help to check how the devops works.
  *  the date is 20 jan 2020
+ *  This is change 
  *
  */
 public class DevOpsTest {
@@ -34,7 +35,7 @@ public class DevOpsTest {
         driver.findElement(By.className("phone-no")).sendKeys("9858965667");
         
         Select s= new Select(driver.findElement(By.name("mm")));
-        s.selectByVisibleText("March");
+        s.selectByVisibleText("JaFeb");
         
         Thread.sleep(2000);
         s.selectByIndex(9);
