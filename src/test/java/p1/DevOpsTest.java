@@ -35,7 +35,7 @@ public class DevOpsTest {
         driver.findElement(By.className("phone-no")).sendKeys("9858965667");
         
         Select s= new Select(driver.findElement(By.name("mm")));
-        s.selectByVisibleText("JaFeb");
+        s.selectByVisibleText("March");
         
         Thread.sleep(2000);
         s.selectByIndex(9);
