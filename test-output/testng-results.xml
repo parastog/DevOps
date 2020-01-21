@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18910" started-at="2020-01-20T09:51:40Z" finished-at="2020-01-20T09:51:59Z">
+  <suite name="Default suite" duration-ms="68490" started-at="2020-01-21T06:00:19Z" finished-at="2020-01-21T06:01:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18910" started-at="2020-01-20T09:51:40Z" finished-at="2020-01-20T09:51:59Z">
+    <test name="Default test" duration-ms="68490" started-at="2020-01-21T06:00:19Z" finished-at="2020-01-21T06:01:28Z">
       <class name="p1.DevOpsTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:p1.DevOpsTest@4b9e13df]" name="beforeTest" is-config="true" duration-ms="6722" started-at="2020-01-20T09:51:40Z" finished-at="2020-01-20T09:51:46Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:p1.DevOpsTest@4b9e13df]" name="beforeTest" is-config="true" duration-ms="5041" started-at="2020-01-21T06:00:19Z" finished-at="2020-01-21T06:00:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:p1.DevOpsTest@4b9e13df]" name="openBrowser" duration-ms="12144" started-at="2020-01-20T09:51:46Z" finished-at="2020-01-20T09:51:59Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:p1.DevOpsTest@4b9e13df]" name="openBrowser" duration-ms="63413" started-at="2020-01-21T06:00:24Z" finished-at="2020-01-21T06:01:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:p1.DevOpsTest@4b9e13df]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-01-20T09:51:59Z" finished-at="2020-01-20T09:51:59Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:p1.DevOpsTest@4b9e13df]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-01-21T06:01:28Z" finished-at="2020-01-21T06:01:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
