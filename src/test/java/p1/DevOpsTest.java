@@ -23,7 +23,8 @@ public class DevOpsTest {
     WebDriver driver;
     @Test
     public void openBrowser() throws InterruptedException {
-        driver.get("https://login.yahoo.com/account/create?specId=yidReg");    
+    	driver.get("https://www.yahoo.com");
+        /* driver.get("https://login.yahoo.com/account/create?specId=yidReg");    
         
         
         driver.findElement(By.name("firstName")).sendKeys("John");
@@ -41,7 +42,7 @@ public class DevOpsTest {
         s.selectByIndex(9);
         Thread.sleep(2000);
         s.selectByValue("7");
-        
+        */
     
         
     }
@@ -58,7 +59,7 @@ public class DevOpsTest {
 
     @AfterTest
     public void afterTest() {
-        //driver.close();
+        driver.close();
         
     }
 
