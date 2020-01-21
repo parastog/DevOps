@@ -59,7 +59,7 @@ public class DevOpsTest {
 
     @AfterTest
     public void afterTest() {
-        driver.close();
+        // driver.close();
         
     }
 
